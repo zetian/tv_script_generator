@@ -11,6 +11,7 @@ build*
 *.m~
 
 
+
 # log
 *.log
 *.data
@@ -68,3 +69,8 @@ tags
 
 # Python
 *.pyc
+
+# TensorFlow
+#*.p
+#*.index
+#*.meta
