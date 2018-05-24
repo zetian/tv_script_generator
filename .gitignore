@@ -71,6 +71,6 @@ tags
 *.pyc
 
 # TensorFlow
-#*.p
-#*.index
-#*.meta
+*.p
+*.index
+*.meta
