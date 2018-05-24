@@ -1,0 +1,70 @@
+# Temp files
+*/Debug
+build
+build2
+*/build
+build*
+/control/hummingbird/quad_ctrl/build
+*~
+*/~
+*/*.*~
+*.m~
+
+
+# log
+*.log
+*.data
+
+# Doxygen
+docs/doxygen/html/
+docs/doxygen/latex
+
+# Qt Creator
+pc/visualization/CMakeLists.txt.user
+
+# VS Code
+.vscode
+
+# LCM
+src/lcmtypes/c
+src/lcmtypes/cpp
+src/lcmtypes/java
+src/lcmtypes/python
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+#*.so
+#*.dylib
+#*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+#*.lai
+#*.la
+#*.a
+#*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Vim
+tags
+*/tags
+*.swp
+*/*.swp
+
+# Python
+*.pyc
