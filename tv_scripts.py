@@ -11,7 +11,6 @@ def get_tensors(loaded_graph):
     :param loaded_graph: TensorFlow graph loaded from file
     :return: Tuple (InputTensor, InitialStateTensor, FinalStateTensor, ProbsTensor)
     """
-    # TODO: Implement Function
     InputTensor = loaded_graph.get_tensor_by_name("input:0")
     InitialStateTensor = loaded_graph.get_tensor_by_name("initial_state:0")
     FinalStateTensor = loaded_graph.get_tensor_by_name("final_state:0")
@@ -25,7 +24,7 @@ def pick_word(probabilities, int_to_vocab):
     :param int_to_vocab: Dictionary of word ids as the keys and words as the values
     :return: String of the predicted word
     """
-    word = int_to_vocab[probabilities.argmax(axis=0)]
+    word = int_to_vocab[probabilities.argmax(axis = 0)]
     return word
 
 gen_length = 200
