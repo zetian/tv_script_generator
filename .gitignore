@@ -9,8 +9,7 @@ build*
 */~
 */*.*~
 *.m~
-
-
+.DS_Store
 
 # log
 *.log
@@ -71,6 +70,5 @@ tags
 *.pyc
 
 # TensorFlow
+save.*
 *.p
-*.index
-*.meta

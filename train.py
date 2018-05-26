@@ -120,7 +120,7 @@ rnn_size = 500
 # Embedding Dimension Size
 embed_dim = 500
 # Sequence Length
-seq_length = 12
+seq_length = 30
 # Learning Rate
 learning_rate = 0.001
 # Show stats for every n number of batches
