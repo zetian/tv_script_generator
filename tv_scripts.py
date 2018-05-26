@@ -24,10 +24,11 @@ def pick_word(probabilities, int_to_vocab):
     :param int_to_vocab: Dictionary of word ids as the keys and words as the values
     :return: String of the predicted word
     """
-    word = int_to_vocab[probabilities.argmax(axis = 0)]
+    word = np.random.choice(list(int_to_vocab.values()), 1, p = probabilities)[0]
+    # word = int_to_vocab[probabilities.argmax(axis = 0)]
     return word
 
-gen_length = 200
+gen_length = 300
 prime_word = 'chandler'
 loaded_graph = tf.Graph()
 with tf.Session(graph=loaded_graph) as sess:
