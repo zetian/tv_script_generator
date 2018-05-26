@@ -2,7 +2,7 @@
 
 ### Friends Script 
 
-'''
+```
 chandler: yeah, i wanna apologize for this.
 
 phoebe: come on, there’s a cat!(there’s a pencil on.)
@@ -34,4 +34,4 @@ ross: all right, don't tell me when we act like ‘em where they get divorced.
 rachel: yeah melissa, don't say anything. i…
 
 end
-'''
+```
