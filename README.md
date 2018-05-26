@@ -1,6 +1,7 @@
 # TV Script Generator with RNN
 
-### Friens Script 
+### Friends Script 
+
 '''
 chandler: yeah, i wanna apologize for this.
 
